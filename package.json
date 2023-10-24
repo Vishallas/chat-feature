@@ -4,11 +4,15 @@
   "description": "This is for creating a chat feature for out app",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "build": "tsc",
+    "start": "node ./dist/app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
-  }
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "typescript": "^5.2.2"
+  },
+  "type": "module"
 }
